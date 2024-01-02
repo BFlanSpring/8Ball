@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.eight-ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.message {
+  border-radius: 15px;
+  height: 15rem;
+  width: 15rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+ button {
+  margin: 5px;
+ }
+.counter {
+  margin-left: 10px;
+  text-align:left;
+}
