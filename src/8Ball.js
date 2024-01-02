@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const EightBall = ({ answers }) => {
-  const initialColor = 'white';
+  const initialColor = 'black';
   const initialMessage = 'Think of a Question';
   
   const [color, setColor] = useState(initialColor);
